@@ -132,6 +132,35 @@ body {
     font-weight: bold;
 }
 
+.SalaDeAula {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.TreinamentoPorteiros {
+    background-color: rgb(230, 230, 230);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-top: -14px;
+}
+
+.TreinamentoPorteirosTXT {
+    padding-left: 30px;
+    margin-top: -40px;
+    text-align: left;
+    width: 400px;
+}
+
+.TreinamentoPorteirosTXT > ul {
+    transform: translateX(-13px);
+    width: 500px;
+}
+
+
+
 footer {
     background-color: #2148B5;
     color: white;
