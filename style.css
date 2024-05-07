@@ -323,21 +323,21 @@ footer {
     }
 
     .videosYoutube iframe {
-        width: 100%; /* Define a largura dos iframes como 100% da largura do contêiner pai */
-        height: auto; /* Define a altura como automática para manter a proporção */
+        width: 100%;
+        height: auto;
     }
 
     body {
-        overflow-x: hidden; /* Impede a rolagem horizontal */
+        overflow-x: hidden;
     }
 
     .footer {
-        flex-direction: column; /* Empilha os elementos do footer */
+        flex-direction: column;
     }
 
     .footer > div {
-        width: 100%; /* Garante que os elementos do footer ocupem toda a largura */
-        margin-bottom: 20px; /* Adiciona espaçamento entre os elementos */
+        width: 100%;
+        margin-bottom: 20px;
     }
 
   }
@@ -370,11 +370,11 @@ footer {
     }
     
     .videosYoutube iframe {
-        width: 90%; /* Reduz ainda mais a largura dos iframes */
+        width: 90%;
     }
 
     .footer {
-        padding: 20px 0; /* Ajusta o preenchimento do footer */
+        padding: 20px 0;
     }
 
     .footer2 {
