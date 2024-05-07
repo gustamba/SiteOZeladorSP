@@ -19,18 +19,18 @@
             assédio no trabalho</p>
             <p class="dataturma">Próxima turma <br>
             dia 25/05/2024 das 8h às 13h</p>
-            <input class="button1" type="button" value="Inscreva-se"><input class="button2" type="button" value="Saiba mais">
+            <input id="button1" class="button1" type="button" value="Inscreva-se" onclick="redirectToWhatsapp()"><input class="button2" type="button" value="Saiba mais" onclick="redirectToTreinamento()">
         </div>
     </header>
     <section>
         <div class="nossoObjetivo">
             <h1>NOSSO OBJETIVO</h1>
             <p>Nosso objetivo é orientar o funcionário, o zelador, porteiro <br>
-            pessoal de manuntenção, portarias e limpeza visando <br>
+            pessoal de manutenção, portarias e limpeza visando <br>
             facilitar e aprimorar suas atividades diárias</p>
             <img class="buldingIcon" src="img/building-icon.png" alt="building-icon">
         </div>
-        <div class="TreinamentoPorteiros">
+        <div id="TreinamentoPorteiros" class="TreinamentoPorteiros">
             <img class="SalaDeAula" src="img/SalaDeAula.jpg" alt="SalaDeAula">
             <div class="TreinamentoPorteirosTXT">
                 <h1>TREINAMENTO PARA PORTEIROS <br>
@@ -51,7 +51,7 @@
                 <h1>SORTEIO DE UM PRÊMIO <br>
                 NO FIM DO CURSO</h1>
                 <p class="txtimportante">VAGAS LIMITADAS</p>
-                <button class="valorTreinamento">Valor: <strong>R$ 315,00*</strong> <br> <p>(*pago no boleto bancário)</p></button>
+                <button class="valorTreinamento" onclick="redirectToWhatsapp()">Valor: <strong>R$ 315,00*</strong> <br> <p>(*pago no boleto bancário)</p></button>
             </div>
         </div>
         <div class="canalYoutube">
@@ -66,17 +66,26 @@
         </div>
     </section>
     <footer>
-        <p>O Zelador SP</p>
-        <p>O Site do Zelador</p>
-        <p>Contato</p>
-        <p>info@ozelador.com.br</p>
-        <p>Redes Sociais</p>
-        <p>Youtube</p>
+        <div id="contato" class="contato">
+            <p>Contato <br>
+                azlgprodutos@gmail.com <br>
+                (11) 9.9270-5129 / (11) 5052-5770</p>
+        </div>
+        <div class="logo">
+            <img src="img/OZeladorSP_logo.png" alt="O Zelador SP">
+        </div>
+        <div class="redesSociais">
+            <p>NOSSAS REDES SOCIAIS</p>
+            <img src="img/Youtube_icon.png" alt="Youtube">
+            <img src="img/Instagram_icon.png" alt="Instagram">
+            <img src="img/TikTok_icon.png" alt="TikTok">
+        </div>
     </footer>
+    <footer class="footer2">O Zelador SP | 2024</footer>
     <div class="cabeçalho">
         <img class="logo" src="img/OZeladorSP_logo.png" alt="O Zelador SP">
         <nav class="menu">
-            <input type="button" value="Contato">
+            <input type="button" value="Contato" onclick="redirectToContact()">
         </nav>
     </div>
 </body>
