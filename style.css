@@ -116,9 +116,9 @@ body {
 .buldingIcon {
     position: relative;
     filter: opacity(5%);
-    margin-top: -170px;
+    margin-top: -190px;
     object-fit: fill;
-    height: 240px;
+    height: 260px;
     transform: translateX(180px);
 }
 
@@ -126,6 +126,7 @@ body {
     color: #2148B5;
     font-family: 'Open Sans';
     font-weight: bolder;
+    margin-top: 30px;
 }
 
 .nossoObjetivo > p {
@@ -133,8 +134,8 @@ body {
 }
 
 .SalaDeAula {
-    width: 400px;
-    height: 600px;
+    width: 370px;
+    height: 650px;
     object-fit: cover;
 }
 
@@ -144,7 +145,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center ;
-    margin-top: -14px;
+    margin-top: -30px;
+    position: relative;
 }
 
 .TreinamentoPorteirosTXT {
@@ -156,10 +158,49 @@ body {
 
 .TreinamentoPorteirosTXT > ul {
     transform: translateX(-13px);
-    width: 500px;
+    width: 366px;
 }
 
+.txtimportante {
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30pt;
+    margin: 0;
+}
 
+.valorTreinamento {
+    background-color: #78B521;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 260px;
+    height: 80px;
+    font-size: 21pt;
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.valorTreinamento > p {
+    font-size: 12pt;
+    margin: 0;
+}
+
+.canalYoutube > h1{
+    font-size: 25pt;
+    color: #2148B5;
+    font-weight: bolder;
+}
+
+.videosYoutube {
+    
+    margin-bottom: 70px;
+}
+
+iframe {
+    padding: 10px;
+}
 
 footer {
     background-color: #2148B5;
