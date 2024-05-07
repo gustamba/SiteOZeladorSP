@@ -9,3 +9,15 @@ function redirectToTreinamento(){
 function redirectToContact(){
     window.location.href = "#contato"
 }
+
+function redirectToYoutube(){
+    window.location.href = "https://www.youtube.com/@OZeladorSP"
+}
+
+function redirectToInstagram(){
+    window.location.href = "https://www.instagram.com/ozeladorsp/"
+}
+
+function redirectToTiktok(){
+    window.location.href = "https://www.tiktok.com/@ozeladorsp"
+}

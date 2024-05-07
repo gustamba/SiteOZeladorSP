@@ -262,16 +262,18 @@ footer {
 @media screen and (max-width: 768px) {
     .capa {
       height: 380px;
+      margin-top: 10px;
     }
   
     .capatxt {
       padding: 20px;
       top: 50px;
       height: auto;
+      margin-top: 60px;
     }
   
     .menu {
-      display: none;
+      margin-right: 10px;
     }
   
     .cabeçalho {
