@@ -1,5 +1,5 @@
 function redirectToWhatsapp() {
-    window.location.href = "https://wa.me/5511992705129?text=Quero+saber+mais+sobre+o+treinamento+para+porteiros+e+controladores+de+acesso%21"
+    window.open('https://wa.me/5511992705129?text=Quero+saber+mais+sobre+o+curso+de+zeladoria+e+gerente+predial%21', '_blank');
 }
 
 function redirectToTreinamento(){
@@ -11,13 +11,13 @@ function redirectToContact(){
 }
 
 function redirectToYoutube(){
-    window.location.href = "https://www.youtube.com/@OZeladorSP"
+    window.open("https://www.youtube.com/@OZeladorSP")
 }
 
 function redirectToInstagram(){
-    window.location.href = "https://www.instagram.com/ozeladorsp/"
+    window.open("https://www.instagram.com/ozeladorsp/")
 }
 
 function redirectToTiktok(){
-    window.location.href = "https://www.tiktok.com/@ozeladorsp"
+    window.open("https://www.tiktok.com/@ozeladorsp")
 }
