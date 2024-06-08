@@ -1,5 +1,5 @@
 function redirectToWhatsapp() {
-    window.open('https://wa.me/5511992705129?text=Quero+saber+mais+sobre+o+curso+de+zeladoria+e+gerente+predial%21', '_blank');
+    window.open('https://wa.me/5511967490847?text=Quero+saber+mais+sobre+o+curso+de+zeladoria+e+gerente+predial%21', '_blank');
 }
 
 function redirectToTreinamento(){
